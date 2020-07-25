@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Animation2.module.css";
+import styles from "./Illustration.module.css";
 
 function Icon() {
   return (

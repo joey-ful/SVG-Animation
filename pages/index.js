@@ -1,12 +1,12 @@
-import Animation from '../components/Animation';
-import Animation2 from '../components/Animation2';
+import Badges from '../components/Badges';
+import Illustration from '../components/Illustration';
 
 const Home = () => {
 
   return (
     <>
-      <Animation/>
-      <Animation2 />
+<Badges/>
+    <Illustration/>
     </>
   );
 }

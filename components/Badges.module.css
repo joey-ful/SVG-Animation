@@ -1,0 +1,79 @@
+
+
+
+.potato {
+  animation: potato 0.1s infinite;
+}
+
+@keyframes potato {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.aptitude_badge {
+    animation: updown 0.1s infinite;
+}
+
+
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.codingtest_badge {
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(70px, 30px);
+  }
+}
+
+.interview_badge {
+    animation: rotate 2s linear infinite;
+}
+
+
+@keyframes rotate {
+	0%,	100% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(20deg);
+	}
+	75% {
+		transform: rotate(-15deg);
+	}
+}
+
+
+.tryout_badge {
+  animation: rescale 3s infinite;
+}
+
+@keyframes rescale {
+  50% {
+    transform: scaleX(2) scaleY(2);
+  }
+}
+
+
+
